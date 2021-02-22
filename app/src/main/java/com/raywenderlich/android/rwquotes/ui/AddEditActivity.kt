@@ -62,7 +62,7 @@ class AddEditActivity : AppCompatActivity() {
       addEditBinding.editTextQuoteAuthor.setText(intent.getStringExtra(EXTRA_AUTHOR))
       addEditBinding.editTextQuoteDate.setText(intent.getStringExtra(EXTRA_DATE))
     } else {
-      title = "Add new quote"
+      title = "Add a new quote"
     }
     addEditBinding.buttonSaveQuote.setOnClickListener {
       saveQuote()
